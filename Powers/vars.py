@@ -11,11 +11,11 @@ class Config:
     """Config class for variables."""
 
     LOGGER = True
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
-    API_ID = int(config("API_ID", default="123"))
-    API_HASH = config("API_HASH", default=None)
-    OWNER_ID = int(config("OWNER_ID", default=1344569458))
-    MESSAGE_DUMP = int(config("MESSAGE_DUMP"))
+    BOT_TOKEN = "5959267839:AAEKlt-amgyRNaY0dnARQXDLH4cSth1mpzU" #config("BOT_TOKEN", default=None)
+    API_ID = 10248430 #int(config("API_ID", default="123"))
+    API_HASH = "42396a6ff14a569b9d59931643897d0d" #config("API_HASH", default=None)
+    OWNER_ID = 5470956337 #int(config("OWNER_ID", default=1344569458))
+    MESSAGE_DUMP = -1001907436368 #int(config("MESSAGE_DUMP"))
     DEV_USERS = [
         int(i)
         for i in config(
@@ -40,13 +40,13 @@ class Config:
     GENIUS_API_TOKEN = config("GENIUS_API",default=None)
     AuDD_API = config("AuDD_API",default=None)
     RMBG_API = config("RMBG_API",default=None)
-    DB_URI = config("DB_URI", default="")
-    DB_NAME = config("DB_NAME", default="gojo_satarou")
+    DB_URI = "mongodb+srv://aliceopbaby:xf2zQa1IqoY6sWac@cluster0.exsrzpi.mongodb.net/?retryWrites=true&w=majority" #config("DB_URI", default="")
+    DB_NAME = "aliceopbaby" #config("DB_NAME", default="gojo_satarou")
     BDB_URI = config("BDB_URI",default=None)
     NO_LOAD = config("NO_LOAD", default="").split()
     PREFIX_HANDLER = config("PREFIX_HANDLER", default="/").split()
-    SUPPORT_GROUP = config("SUPPORT_GROUP", default="gojo_bots_network")
-    SUPPORT_CHANNEL = config("SUPPORT_CHANNEL", default="gojo_bots_network")
+    SUPPORT_GROUP = "https://t.me/thanosprosss"#config("SUPPORT_GROUP", default="gojo_bots_network")
+    SUPPORT_CHANNEL = "https://t.me/thanosprosss"#config("SUPPORT_CHANNEL", default="gojo_bots_network")
     WORKERS = int(config("WORKERS", default=16))
     TIME_ZONE = config("TIME_ZONE",default='Asia/Kolkata')
     BOT_USERNAME = ""
